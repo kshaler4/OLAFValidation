@@ -5,8 +5,8 @@ import matplotlib.pylab as pl
 import pickle
 
 # --- Parameters
-pickleFile = 'AzimuthalData.pkl'
-figpath ='./'
+pickleFile = 'data/AzimuthalData.pkl'
+figpath ='./figs/'
 cases =['min30deg', '00deg', '30deg']
 tools =['BEM','FVW','AMR']
 colors=pl.cm.tab20b(np.linspace(0,1,10))
